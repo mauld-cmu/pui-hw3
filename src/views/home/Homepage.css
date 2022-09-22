@@ -43,3 +43,11 @@ nav span {
   cursor: pointer;
   position: relative;
 }
+
+/* Grid Styling */
+#product-grid {
+  margin: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
