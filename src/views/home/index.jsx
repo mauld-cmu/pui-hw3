@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Homepage.css';
 import logo from './logo-01.svg';
+import NavBar from '../../components/NavBar';
 import ItemCard from '../../components/ItemCard';
 
 class Homepage extends Component {
@@ -68,16 +69,9 @@ class Homepage extends Component {
         <header>
           <img id="logo" src={logo} alt="Bun Bun Bake Shop logo with text" width="400" />
           <div id="header-text">
-            <nav>
-              <div id="products-nav">
-                <span>PRODUCTS</span>
-              </div>
-              <div id="cart-nav">
-                <span>CART</span>
-              </div>
-            </nav>
+            <NavBar/>
             <hr/>
-              <h1>Our hand-made cinnamon rolls</h1>
+            <h1>Our hand-made cinnamon rolls</h1>
           </div>
         </header>
         <div id="product-grid">

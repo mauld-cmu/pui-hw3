@@ -6,7 +6,12 @@ class NavBar extends Component {
   render() { 
     return (
       <nav>
-        <p>i am nav bar</p>
+        <div id="products-nav">
+          <span>PRODUCTS</span>
+        </div>
+        <div id="cart-nav">
+          <span>CART</span>
+        </div>
       </nav>
     );
   }

@@ -21,29 +21,6 @@ h1 {
   font-size: 40px;
 }
 
-/* Nav Styling */
-nav {
-  margin: 70px 0;
-  padding-right: 100px;
-  font-size: 25px;
-  display: flex;
-  justify-content: end;
-}
-
-nav span {
-  margin-left: 90px;
-}
-
-#products-nav span {
-  background-color: yellow;
-}
-
-#cart-nav span:hover {
-  background-color: yellow;
-  cursor: pointer;
-  position: relative;
-}
-
 /* Grid Styling */
 #product-grid {
   margin: 80px;
