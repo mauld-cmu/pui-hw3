@@ -54,6 +54,15 @@ class Homepage extends Component {
     };
   }
   render() { 
+    const gridItems = this.state.itemCardData.map((item) =>
+      <ItemCard
+        key={item.name}
+        displayName={item.displayName}
+        imageURL={item.imageURL}
+        imageAlt={item.imageAlt}
+        price={item.price}
+      />
+    );
     return (
       <div className="homepage">
         <header>
@@ -72,13 +81,7 @@ class Homepage extends Component {
           </div>
         </header>
         <div id="product-grid">
-          <ItemCard
-            name={this.state.itemCardData[0].name}
-            displayName={this.state.itemCardData[0].displayName}
-            imageURL={this.state.itemCardData[0].imageURL}
-            imageAlt={this.state.itemCardData[0].imageAlt}
-            price={this.state.itemCardData[0].price}
-          />
+          {gridItems}
         </div>
       </div>
     );
