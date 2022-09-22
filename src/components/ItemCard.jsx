@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 import './ItemCard.css';
 
+/*
+  ItemCard props are: 
+  name: String,
+  displayName: String,
+  imageURL: String,
+  imageAlt: String,
+  price: number,
+*/
 class ItemCard extends Component {
   constructor(props) {
     super(props);

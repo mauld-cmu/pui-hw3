@@ -1,5 +1,4 @@
 .App {
   font-family: futura, sans-serif;
-  /* Removes browser margins so <hr> can reach the edge */
   margin: 0px;
 }

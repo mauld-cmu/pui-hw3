@@ -55,6 +55,7 @@ class Homepage extends Component {
     };
   }
   render() { 
+    // Loops through the itemCardData list, passes props to ItemCard Components
     const gridItems = this.state.itemCardData.map((item) =>
       <ItemCard
         key={item.name}
